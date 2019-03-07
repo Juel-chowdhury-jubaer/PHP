@@ -1,0 +1,700 @@
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{font-family: verdana;font-size: 12px;line-height: 18px;   background-color: #3A84B6;}
+.template{width: 1170px;margin: 0 auto;background: #fff;}
+.clear{overflow: hidden;}
+
+.headsection{
+width: 100%;margin: 0 auto;background: darkcyan;
+  
+}
+.headtemplate{
+  width: 1170px;margin: 0 auto;
+}
+.headertop img{width: 250px;height: 100px;margin-top: 20px;margin-bottom: 5px; margin-left: -31px; }
+.mainmenu ul{
+              list-style-type: none;
+              margin: 1px;
+              padding-left: 6px;
+              padding-right: 6px;
+              overflow: hidden;
+              background-color: #00925C;
+              position: -webkit-sticky; /* Safari */
+              position: sticky;
+              top: 0;
+            }
+    .mainmenu ul li{
+                      display:inline-block;
+                      padding:12px 8px;
+                      
+                    
+                    }
+    .mainmenu ul li a{
+                        color: #fff;
+                        text-decoration:none;
+                       font-size: 17px;
+                      }
+    .mainmenu ul li a:hover{
+                      color: ;
+    }
+    .mainmenu ul li:hover{
+                            background: brown;
+                          
+                          }
+
+    .handle{width:100%;padding:20px 15px;box-sizing:border-box;cursor:pointer;background:#46890b;color:white;display:none;}
+ .active{background: brown; color:#fff;}
+    
+
+.slider-section {
+    overflow: hidden;
+    margin-bottom: -50px;
+	box-sizing:border-box;
+}
+
+.content-section {
+  background: #FFF;
+}
+.content-left{float:left;width:21%;}
+.content-left h2{background:#a59ba0;color:yellow;padding:5px 3px;text-align: center; float: left;
+    width: 99%;margin-left: 4px;}
+.submenu{padding-left: 10px;}
+.submenu li{list-style: none;font-size:15px;font-weight:bold;line-height: 32px;}
+.submenu li a {
+    color: #049bac;
+    font-size: 22px;
+    font-weight: 500;
+}
+.content-mid{float:left;width:50%;}
+.content-mid ul li{ font-family:verdana;line-height: 30px;  font-size: 22px !important; color: black;
+      margin-bottom: 30px; }
+.content-mid h2{padding-left:4%;padding-right:4%;}
+.content-mid p{padding-left:4%;padding-right:4%;text-align:justify;font-size:14px;}
+
+.content-right{float:right;width:25%;padding-top:5px;}
+.content-right h2{background:#a59ba0;color:yellow;padding:5px 3px;text-align: center;float: left;width: 97%;}
+.content-right form{font-size:16px;}
+.content-right table{}
+.content-right table td{padding:10px 2px;}
+.content-right input[type="reset"],.content-right input[type="button"]{cursor:pointer;}
+.content-right input[type="text"],.content-right input[type="email"],.content-right input[type="password"]{width: 99%;}
+.button-section{background:#fff;text-align: center;padding:20px 0px;}
+.button-section1{
+                  background: #fff;
+                  text-align: center;
+                  padding: 20px 0px;
+                }
+.button-section h2{font-size:22px;}
+.button-section1 h2{font-size:22px;}
+.button-section1 input {
+  padding: 10px 80px;
+  cursor: pointer;
+  font-size: 24px;
+  background:   #FF0000;
+  color: #fff;
+  border-radius: 10px;
+}
+.button-section input {
+  padding: 10px 80px;
+  cursor: pointer;
+  font-size: 24px;
+  background: #FF0000;
+  color: #fff;
+  border-radius: 10px;
+}
+.button-section input:hover{background:#def28e;color:#c80222;}
+.button-section1 input:hover{background:#def28e;color:#c80222;}
+
+
+.footer_top{padding: 20px;background: #2c2c2d;}
+.footer_left{float:left;width:300px;}
+.footer_left{
+ 
+  color: #98989a;
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+.footer_left p {
+  color: #98989a;
+  font-size: 12px;
+}
+.footer_left a{color: #98989a;font-size: 12px;}
+
+.footer_mid{width: 300px;float:left;margin-left: 30px;}
+.footer_mid h2 {
+  border-bottom: 1px solid #98989a;
+  color: #98989a;
+  font-size: 22px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+.footer_left input[type="text"] {
+  padding: 2px;
+  width: 250px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.footer_left input[type='submit']{width:40px;}
+.footer_left h2 { 
+                border-bottom: 1px solid #98989a;
+                color: #98989a;
+                font-size: 22px;
+                padding: 10px;
+                margin-bottom: 25px;
+}
+.footer_left p,.footer_left a { font-size: 18px; }
+.footer_mid a {
+  color: #049bac;
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+
+.footer_right{float:right;width: 300px;}
+.footer_right h2 {
+  border-bottom: 1px solid #98989a;
+  color: #98989a;
+  font-size: 22px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+.footer_right p {
+  color: #98989a;
+  line-height: 26px;
+  font-size: 18px;
+}
+
+footer {
+    padding: 21px 0px;
+    text-align: center;
+    color: #57590F;
+    font-size: 21px;
+}
+
+
+
+/*this is for prescription page*/
+#result {
+  font-size: 18px;
+  padding-left: 15px;
+}
+
+.see_pres {
+  padding: 8px 10px;
+  background: #C31331;
+  color: #fff;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.prescribed_output{font-size: 20px;}
+
+/*this is for foodsrecipes page*/
+.foodsrecipes li a{
+  color: green;
+  font-size: 20px;
+}
+
+/*this is for weightandheight.php page*/
+
+.weightclass{
+  margin: 1px;
+  background:#FFF;
+}
+.weightclass1 {
+    margin: 91px 158px;
+    background: #fff;
+    /* border: 2px solid; */
+}
+
+.weightclass1 h2{ color: green; }
+
+.weightclass1 form{padding: 2px;}
+.td1{
+  font-weight: bold;
+ font-size: 19px;
+ color: black;
+ padding: 10px 0px;
+
+}
+.td12{
+  color: green;
+  font-size: 22px;
+  padding: 10px 0px;
+}
+.tdh2 {
+    margin-left: 209px;
+    color: green;
+    font-size: 22px;
+}
+
+.paragraph{
+  font-size: 22px;
+}
+
+.input1 input[type='number'] {
+    width: 209px;
+    height: 30px;
+    border: 1px #000 solid;
+    margin: 2px;
+    text-align: center;
+    font-size: 16px;
+    background: #fff;
+}
+.input1 input[type='text'] {
+    width: 93px;
+    height: 30px;
+    border: 1px #000 solid;
+    margin: 63px 2px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+.input1 input[type='submit'] {
+    width: 173px;
+    height: 35px;
+    border: 2px green solid;
+    margin: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    background: green;
+    margin-bottom: 20px;
+} 
+.input1 input[type='submit']:hover{
+  opacity: 0.7;
+}
+.td1w {
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    padding: 34px 1px;
+}
+
+pre{
+  font-size: 22px;
+  color: #000;
+  line-height: 30px;
+  line-height: 30px;
+}   
+
+.bmi_calculation{background: darkcyan;
+    margin-left: 25%;
+    padding: 5% 3%;
+    border: 1px solid #000;}
+
+/*this is for prescriptions.php page*/
+
+.test-section  {
+  background: #FFF;
+}               
+
+.main-test-section{
+  margin: 5px 15%;
+ background: 
+}
+.main-test-section td {
+    font-weight: lighter;
+    font-size: 22px;
+    color: black;
+    margin: 154px 77px;
+    padding: 6px;
+ 
+}
+.main-test-section input[type='radio'] {
+    width: 40px;
+    height: 20px;
+}
+.main-test-section input[type='text']{
+  border:1px #000 solid;
+  font-size: 20px;
+  padding: 3px;
+
+}
+#effort{
+        border:1px #000 solid;
+        opacity: 0.7;
+        font-size: 20px;
+        padding: 3px;
+       }
+.main-test-section input[type='button']{
+  background: green;
+  width: 177px;
+  height: 38px;
+  color: white;
+}
+.main-test-section input[type='button']:hover{
+  color: green;
+  background: yellow;
+}
+.prescribed_output{line-height: 26px;}
+.err_msg{color: red;text-align: center;padding: 10px 22px;background: gray;display: block;}
+/*this is for symptoms.php page*/
+.symptomstest-section1{
+  
+}
+.symptomstest-section{
+ margin: 5px 20%;
+}
+.symptomstest-section h2{
+  color: green;
+  font-size: 25px;
+}
+.symptomstest-section p{font-size: 20px; line-height: 30px;}
+.symptomstest-section h3{font-size: 22px;line-height: 30px; color: brown;}
+.symptomstest-section h4{font-size: 21px;}
+.symptomstest-section ul{}
+.symptomstest-section ul li{font-size: 20px; padding: 5px 3px;}
+
+/*this is for foodsrecepies.php page*/
+.foodtest-section1{}
+.foodtest-section{ 
+                  margin:5px 22%;  
+
+                   }
+.foodtest-section h1{  color: brown;font-size: 28px;}
+.foodtest-section h2{  color: green;font-size: 25px;}
+.foodtest-section h3{font-size: 22px;line-height: 30px;}
+.foodtest-section ul{}
+.foodtest-section ul li{font-size: 20px; padding: 5px 3px;}
+.foodtest-section p{font-size: 20px; line-height: 30px;}
+.foodtest-section a{font-size: 20px; line-height: 30px;color: brown;font-weight: bold;}
+
+/*this is for endrocrinologists.php page*/
+.doctor{
+  margin: 70px 8%;
+}
+.doctor table tr td{
+  font-size: 29px;
+  font-weight: bold;
+  color: brown;
+}
+.doctor input {
+  padding: 10px 80px;
+  cursor: pointer;
+  font-size: 24px;
+  background: #009270;
+  color: #fff;
+  border-radius: 10px;
+}
+.doctor input:hover{
+  background: green;
+  color: red;
+}
+/*this is for diabeticscenter.php page*/
+.dbcntr1{}
+.dbcntr{ margin: 80px 87px; }
+.dbcntr input {
+    padding: 11px 80px;
+    cursor: pointer;
+    font-size: 24px;
+    background: #009270;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 290px;
+    margin-top: 35px;
+}
+.dbcntr table tr td{ 
+ font-size: 29px;
+  font-weight: bold;
+  color: brown;
+  line-height: 30px;
+}
+/*this is for livingwithdiabetics.php page*/
+
+.livingwithdiabetes{margin:50px 10%;}
+.livingwithdiabetes h2{
+  color: brown;
+  font-size: 28px;
+}
+.livingwithdiabetes h3{
+  color: green;
+  font-size: 25px;
+}
+.livingwithdiabetes ul li{ font-size: 22px; padding: 10px 3px;line-height: 30px; }
+.livingwithdiabetes p{font-size: 22px; line-height: 30px;}
+
+@media screen and (max-width:720px){
+      nav ul{max-height:0;}
+      .showing{max-height:100%;}
+      nav ul li{box-sizing:border-box;width:100%;text-align:left;}
+      #selected{background:transparent;}
+      .handle{display:block;}
+    }
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

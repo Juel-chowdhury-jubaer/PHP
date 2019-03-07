@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="#" method="post" class="demoForm" id="demoForm">
+    <fieldset>
+        <legend>Demo: Get Value of Selected</legend>
+    
+    <p>Select a shipping method:</p>
+    <p>
+        <label><input type="radio" name="ship" value="std" checked /> Standard Ground</label>
+        <label><input type="radio" name="ship" value="2day" /> Second Day</label>
+        <label><input type="radio" name="ship" value="1day" /> Overnight</label>
+        <label><input type="radio" name="ship" value="hold" /> Pick up</label>
+    </p>
+    
+    <p><button type="button" name="getVal">Get Value of Selected</button></p>
+    
+    </fieldset>
+</form>
+
+<script>
+
+    var val = getRadioVal( document.getElementById('demoForm'), 'ship' );
+	alert(val);
+
+</script>
+
+</body>
+</html>
+</html>

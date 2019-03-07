@@ -1,0 +1,6 @@
+You need to Run dbcreate file to create a database in your server. so, type www.localhost/Login page/configure/dbconnect.php in address bar..
+
+Then, localhost/Login page/configure/dbcreate.php
+Next, localhost/Login page/configure/create_table.php
+Then we have to go localhost/Login page/index.php
+

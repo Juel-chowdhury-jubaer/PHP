@@ -1,0 +1,7 @@
+For creating a database successfully.. Follow these steps:
+Copy the Hotelhotash file and paste it in www folder.
+1.Execute localhost/Hotelhotash/configure/dbconnect.php
+2.Then, localhost/Hotelhotash/configure/dbcreate.php
+3.Next, localhost/Hotelhotash/configure/create_table.php
+
+Now,Type localhost/Hotelhotash/index.php

@@ -1,0 +1,11 @@
+For creating a database successfully.. Follow these steps:
+Copy the ice_2nd file and paste it in www folder.
+1.Execute localhost/ice_2nd/configure/dbcreate.php
+2.Then, localhost/ice_2nd/configure/dbconnect.php
+3.Next, localhost/ice_2nd/configure/create_table.php
+4. now, localhost/ice_2nd/configure/insert.php
+
+Now,Type localhost/ice_2nd/index.php
+
+
+

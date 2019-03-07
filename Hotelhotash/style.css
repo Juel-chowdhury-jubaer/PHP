@@ -1,0 +1,212 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+.menu{
+	background-color:#2A2D32;
+	overflow:hidden;
+}
+.menu h1{
+	color:#FFFFFF;
+	font-family:Algerian;
+}
+.menu h1 spin{
+	color:#FFD701;
+}
+.logo{ 
+	float:left;
+	overflow:hidden;
+	width:20%;
+}
+.bar{ 
+	float:left;
+	overflow:hidden;
+	width:80%;
+}
+.bar ul{ 
+	list-style:none;
+	text-align:right;
+	margin-top:25px;
+}
+.bar ul li{ 
+	display:inline-block;
+}
+.bar ul li a{ 
+	display:block;
+	padding:1px 20px;
+	text-decoration:none;
+	color:#FFFFFF;
+	font-family: 'Elephant';
+	font-weight:400;
+	font-size:14px;
+}
+.bar ul li a:hover{
+	background:black;
+	color:#00ffff;
+}
+
+.banner{ 
+	   height:400px;
+	   background-image:url(images/banner.jpg);
+	   overflow:hidden;
+	   background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-position: center;
+}
+.jhapsa { 
+	height:100%;
+	width:100%;
+	background:rgba(0, 0, 0, .5);
+	overflow:hidden;
+}
+.banner-content { 
+	width:500px;
+	margin:50px auto;
+
+}
+.banner-content h2{ 
+	color:#73B6ED;
+	font-family: 'Imprint MT Shadow', sans-serif;
+	font-size:25px;
+	text-align:center;
+	font-weight:700;
+	text-transform:uppercase;
+}
+.banner-content p{ 
+	color:#ffffff;
+	font-family: Colonna MT;
+	font-size:55px;
+	text-align:center;
+}
+
+.banner-content a{ 
+	display:block;
+	background-color:#7CC576;
+	padding:15px 20px;
+	text-align:center;
+	text-decoration:none;
+	color:#FFF;
+	width:300px;
+	border-radius:20px;
+	margin:20px auto;
+font-family:French Script MT;
+	font-size:40px;
+	
+}
+.bg-color{
+	background:#F2F2F2;
+}
+
+.booking{
+	width:70%;
+	margin:auto;
+}
+.booking h1{
+	font-family:French Script MT;
+	font-size:80px;
+}
+.book-pack{
+	padding:30px;
+	display:inline-block;
+	
+}
+.book-pack img{
+	height:200px;
+	width:200px;
+	border-radius:50%;
+	margin:auto;
+
+}
+.roomtypes{
+	background:#8B8A92;
+	margin-top:50px;
+}
+.roomhead{
+	width:70%;
+	margin:auto;
+}
+.roomhead h1{
+	text-align:center;
+	font-family:French Script MT;
+	color:#FFFFFF;
+	font-size:60px;
+}
+	
+.roomimage{
+	display:inline-block;
+	padding:0px 20px;
+	
+	
+	
+}
+
+.roomimage img{
+	height:150px;
+	weight:150px;
+	border-radius:5px;
+}
+.roomimage h4,p{
+	text-align:center;
+	padding:5px;
+	
+}
+.newsworld {
+}
+.newsworld img{
+	height:500px;
+	width:100%;
+}
+
+.footer{
+	background:#333333;
+		
+}
+.news{
+	display:inline-block;
+	width:31%;
+	padding:10px;
+
+}
+.news h1{
+		text-align:center;
+		color:#FEFEFE;
+}
+ .news p{
+	 color:#939393;
+ }
+ .lastfooter span{
+	 color:red;
+	
+	 
+ }
+	 
+.facilities {
+	padding:30px;
+	background:#b3b3b3;
+	overflow:hidden;	
+	  
+}
+.facilities img {
+			padding-bottom:20px;
+			border-radius:10%;
+			
+			
+}
+
+.resmenu{
+	
+	padding:30px;
+	background:#b3b3b3;
+	overflow:hidden;
+	display:inline-block;
+	
+}
+
+.resmenu img {
+	width:400px;
+	height:300px;
+
+	padding-bottom:20px;
+	border-radius:10px;
+}
+
